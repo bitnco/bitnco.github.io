@@ -12,6 +12,21 @@
         border: .7em solid rgba(200, 200, 200, .5);
         border-radius: .7em;
       }
+      
+      #map-responsive {
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+      }
+      
+      #map-responsive iframe {
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+      }
     </style>
     
     <!-- Google tag (gtag.js) -->
@@ -32,7 +47,7 @@
           <h1 class="display-4 font-weight-bold">Raul's Dream Flooring</h1>
           <p class="font-italic mb-0">Your Local Full Service Flooring Experts<br /> Carpets · Hardwood · Residential · Commercial <br />Professional Installation · Repairs · Warranty</p>
           <br />
-          <a href="mailto:hello@raulsflooring.com?subject=Question about a flooring project&body=Hello Raul, I had a question about.." role="button" class="btn btn-primary px-5">&#9993; Send us a question / 问一个问题</a>  
+          <a href="mailto:hello@raulsflooring.com?subject=Question about a flooring project&body=Hello Raul, I had a question about.." role="button" class="btn btn-primary px-5">&#9993; Send us a question /<br /> 问一个问题</a>  
           <br />
           <br />
           <a href="tel:206-755-9337" role="button" class="btn btn-primary px-5">&#9743; Call for a free estimate /<br />llámanos por teléfono</a>
@@ -40,6 +55,7 @@
           <br />
           <a href="#directions" role="button" class="btn btn-primary px-5">Visit us by appointment</a>
           <br />
+          <p class="font-italic mb-0" style="color: lightgrey; font-size: smaller;"><i>Bothell, WA 98011</i></p>
           <p class="font-italic mb-0" style="color: lightgrey; font-size: smaller;"><i>Proudly serving the PNW since 1994</i></p>
           <p class="font-italic mb-0" style="color: lightgrey; font-size: smaller;"><i>Licensed - Bonded - Insured</i></p>
       </div>
@@ -224,14 +240,14 @@
         <div class="col-10">
           <div id="directions">
             <br />
-            <h4>See sample options at our pop-up showroom (please schedule appointment):</h4>
+            <h4>See sample options at our pop-up showroom<br />(please schedule appointment first):</h4>
             <a href="mailto:hello@raulsflooring.com?subject=Scheduling a free consultation&body=Hello Raul, I would like to schedule an appointment to talk about.." role="button" class="btn btn-primary px-5">&#9993; hello &#64; raulsflooring.com</a>
             <br />
             <a href="tel:206-755-9337" role="button" class="btn btn-primary px-5">&#9743; (206) 755-9337</a>
             <br />
             <p class="font-italic mb-0">8523 NE 198th St<br />Bothell, WA 98011</p>
             <br />
-            <div id="map">
+            <div id="map-responsive">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d42904.21032478468!2d-122.225262!3d47.771497!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54900f3266710d0f%3A0xc736736982c51525!2sRaul&#39;s%20Flooring%20Services!5e0!3m2!1sen!2sus!4v1674964251405!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <br />
